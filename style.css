@@ -1,0 +1,183 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	background: grey;
+	width: 100%;
+}
+.navbar{
+	width: 100%;
+}
+.nav-link{
+	background: white;
+	margin-right: 5px;
+	color: grey;
+	font-weight: bold;
+	transition: 0.3s;
+	border-radius: 5px;
+}
+.nav-link:hover{
+	background: aqua;
+	color: white;
+}
+.gambar-logo{
+	width: 100px;
+	height: 50px;
+}
+.logo{
+	color: aqua;
+	font-family: jokerman;
+	font-size: 30px;
+}
+.jumbotron{
+	margin-top: 30px;
+}
+.product{
+	margin-top: -85px;
+}
+.card-body{
+	background:grey;
+	color: white;
+}
+.tombol{
+	width: 300px;
+	height: 50px
+}
+.read{
+	color: white;
+	transition: 0.3s;
+}
+.read:hover{
+	color: aqua;
+	font-weight: bold;
+}
+.garis-img{
+	background: none;
+	border: none;
+	border-radius: 50%;
+}
+.img-utama img{
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border-radius: 50%;
+	transition: 0.3s;
+	opacity: 0.9;
+	background: none;
+}
+.img-utama:hover{
+	margin-left: 10px;
+	transition: 0.3s;
+	transform: scale(1.2);
+	opacity: 1;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+.img-radius{
+	border-radius: 50%;
+	display: block;
+}
+.team{
+	margin-top: -87px;
+}
+.container1 {
+  position: relative;
+  width: 20%;
+}
+
+.image1 {
+  display: block;
+  width: 203px;
+  height: 250px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: 25px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container1:hover .overlay {
+  opacity: 1;
+  border: 2px black;
+}
+
+.text1 {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  -webkit-transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  transform: translate(-25%, -25%);
+  text-align: center;
+}
+.isi-foto{
+	font-size: 20px;
+	width: 203px;
+	height: 150px;
+	color: grey;
+	font-family: arial sans-serif;
+}
+.about{
+	margin-top: -30px;
+}
+.judul-team{
+	font-weight: bold;
+	color: white;
+}
+.parralax{
+	background-image: url(img/18b.jpg);
+	min-height: 600px; 
+	background-attachment: fixed; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+.gambaran img{
+	width: 300px;
+	height: 250px;
+}
+.card-title{
+	color: black;
+	font-weight: bold;
+}
+.text{
+	color: grey;
+}
+.footer{
+  	background-color: grey;
+  	width: 100%;
+  	height: 50px;
+  	margin-top: -35px;
+}
+.ab{
+  	color: white;
+  	padding-top: 10px;
+  	padding-left: 50px;
+}
+.huruf{
+	color: grey;
+}
+.bawah{
+	margin-top: -32px;
+}
+.terakhir{
+    color: aqua;
+    font-weight: bold;
+}
+hr{
+	width: 45%;
+}
+html{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}

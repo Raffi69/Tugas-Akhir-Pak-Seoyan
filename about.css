@@ -1,0 +1,87 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	background: grey;
+	width: 100%;
+}
+.navbar{
+	width: 100%;
+}
+.nav-link{
+	background: white;
+	margin-right: 5px;
+	color: grey;
+	font-weight: bold;
+	transition: 0.3s;
+	border-radius: 5px;
+}
+.nav-link:hover{
+	background: aqua;
+	color: white;
+}
+.gambar-logo{
+	width: 100px;
+	height: 50px;
+}
+.logo{
+	color: aqua;
+	font-family: jokerman;
+	font-size: 30px;
+}
+.cover{
+	margin-top: 50px;
+}
+.parralax{
+	background-image: url(img/19c.jpg);
+	min-height: 500px; 
+	background-attachment: fixed; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+.atas{
+	margin-top: -180px;
+	margin-right: 330px;
+}
+.bawah1{
+	margin-top: -180px;
+	margin-left: 330px;
+}
+.judul1{
+	padding-top: 50px;
+	padding-left: 350px;
+}
+.judul{
+	padding-top: 50px;
+	padding-left: 550px;
+}
+.footer{
+  	background-color: grey;
+  	width: 100%;
+  	height: 50px;
+  	margin-top: -50px;
+}
+.footer-bawah{
+	margin-top: 20px;
+}
+.ab{
+  	color: white;
+  	padding-top: 10px;
+  	padding-left: 50px;
+}
+.huruf{
+	color: white;
+}
+.bawah{
+	margin-top: -20px;
+}
+.terakhir{
+    color: aqua;
+    font-weight: bold;
+}
+html{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}

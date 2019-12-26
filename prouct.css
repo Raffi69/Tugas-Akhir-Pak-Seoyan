@@ -1,0 +1,69 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	background: grey;
+	width: 100%;
+}
+.navbar{
+	width: 100%;
+}
+.nav-link{
+	background: white;
+	margin-right: 5px;
+	color: grey;
+	font-weight: bold;
+	transition: 0.3s;
+	border-radius: 5px;
+}
+.nav-link:hover{
+	background: aqua;
+	color: white;
+}
+.gambar-logo{
+	width: 100px;
+	height: 50px;
+}
+.logo{
+	color: aqua;
+	font-family: jokerman;
+	font-size: 30px;
+}
+.cari{
+	padding-right: 120px;
+}
+.product-isi{
+	margin-top: 50px;
+}
+.footer{
+  	background-color: grey;
+  	width: 100%;
+  	height: 50px;
+  	margin-top: -50px;
+}
+.footer-bawah{
+	margin-top: 20px;
+}
+.ab{
+  	color: white;
+  	padding-top: 10px;
+  	padding-left: 50px;
+}
+.huruf{
+	color: white;
+}
+.bawah{
+	margin-top: -32px;
+}
+.terakhir{
+    color: aqua;
+    font-weight: bold;
+}
+hr{
+	width: 45%;
+}
+html{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
